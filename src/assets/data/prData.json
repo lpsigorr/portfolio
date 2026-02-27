@@ -80,5 +80,17 @@
     "image9": "images/star_m3.png",
     "area": "Product Design",
     "video": "https://www.youtube.com/shorts/uQ7R5y_6geQ"
+  },
+  {
+    "id": "8",
+    "name": "SOLDIAS",
+    "description1": "AN example website for a fictional company called SOLDIAS, which specializes in creating apparel. The website features a clean and modern design, showcasing the company's unique clothing designs. Users can explore the different models, view detailed images, and learn about the materials and craftsmanship that go into each pair. The website also includes an interactive customization tool that allows users to create their own personalized sneakers by selecting colors, patterns, and materials. Overall, the SOLDIAS website serves as a platform to highlight the brand's creativity and commitment to quality in the world of custom footwear.",
+    "image1": "images/soldias1.png",
+    "image2": "images/soldias2.png",
+    "image3": "images/soldias3.png",
+    "image4": "images/soldias4.png",
+    "image5": "images/soldias5.png",
+    "image6": "images/soldias6.png",
+    "area": "Web Design"
   }
 ]

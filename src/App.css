@@ -296,7 +296,6 @@ html, body {
 
 .works-card {
   background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 24px;
   padding: 20px;
   transition: transform 0.3s ease;
   display: block;
@@ -329,7 +328,6 @@ html, body {
 }
 
 .works-img {
-  border-radius: 16px;
   width: 100%;
   display: block;
   height: auto;
@@ -352,7 +350,7 @@ html, body {
   font-size: 0.875rem;
   background-color: #2b643e;
   color: white;
-  border-radius: 9999px;
+  border-radius: 2px;
 }
 
 /* ---------- Projects ---------- */
@@ -372,7 +370,7 @@ html, body {
   padding: 10px 20px;
   background-color: rgba(255, 255, 255, 0.1);
   border: none;
-  border-radius: 24px;
+  border-radius: 2px;
   cursor: pointer;
   font-size: 0.95rem;
   color: #ffffff;
@@ -404,7 +402,7 @@ html, body {
   background-color: #2b643e;
   color: #ffffff;
   padding: 8px 16px;
-  border-radius: 9999px;
+  border-radius: 2px;
   font-size: 0.875rem;
 }
 
@@ -442,7 +440,6 @@ html, body {
 .project-images img {
   width: 100%;
   max-height: auto;
-  border-radius: 16px;
   object-fit: cover;
   transition: transform 0.3s ease;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
@@ -532,7 +529,6 @@ html, body {
 
 .about-card {
   background-color: rgba(70, 70, 70, 0.3);
-  border-radius: 24px;
   padding: 60px 40px;
   cursor: pointer;
   transition: all 0.4s ease;
@@ -605,7 +601,6 @@ html, body {
 /* Expanded Section */
 .expanded-section {
   background-color: rgba(255, 255, 255, 0.05);
-  border-radius: 24px;
   padding: 60px;
   margin-bottom: 40px;
   animation: fadeIn 0.5s ease;
@@ -627,7 +622,7 @@ html, body {
   padding: 10px 20px;
   background-color: rgba(255, 255, 255, 0.1);
   border: none;
-  border-radius: 24px;
+  border-radius: 2px;
   cursor: pointer;
   font-size: 0.95rem;
   color: #ffffff;
@@ -667,7 +662,6 @@ html, body {
 .product-item {
   background-color: rgba(255, 255, 255, 0.05);
   padding: 20px;
-  border-radius: 16px;
   text-align: center;
   transition: transform 0.3s ease;
 }
@@ -704,7 +698,6 @@ html, body {
 .education-item {
   background-color: rgba(255, 255, 255, 0.05);
   padding: 30px;
-  border-radius: 16px;
   margin-bottom: 20px;
   transition: transform 0.3s ease;
 }
@@ -798,7 +791,6 @@ html, body {
 
 .contact-card {
   background: rgba(70, 70, 70, 0.25);
-  border-radius: 24px;
   padding: 50px;
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
@@ -836,7 +828,7 @@ html, body {
 .contact-field textarea {
   background: rgba(255, 255, 255, 0.07);
   border: 1px solid rgba(255, 255, 255, 0.08);
-  border-radius: 16px;
+  border-radius: 2px;
   padding: 14px 16px;
   color: white;
   font-size: 1rem;
@@ -860,7 +852,7 @@ html, body {
   align-items: center;
   gap: 10px;
   padding: 12px 14px;
-  border-radius: 16px;
+  border-radius: 2px;
   background: rgba(255, 255, 255, 0.05);
   border: 1px solid rgba(255, 255, 255, 0.06);
   width: fit-content;
@@ -900,7 +892,7 @@ html, body {
 .contact-btn-submit {
   margin-top: 10px;
   padding: 14px 18px;
-  border-radius: 9999px;
+  border-radius: 2px;
   border: none;
   cursor: pointer;
   background: rgba(17, 225, 124, 0.25);
@@ -941,7 +933,7 @@ html, body {
   color: white;
   opacity: 0.85;
   padding: 10px 16px;
-  border-radius: 9999px;
+  border-radius: 2px;
   background: rgba(255, 255, 255, 0.08);
   transition: all 0.25s ease;
 }
