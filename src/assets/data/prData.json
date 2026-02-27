@@ -1,0 +1,84 @@
+[
+  {
+    "id": "1",
+    "name": "EHB Arcade",
+    "description1": "The challenge was to design and build a fully functional arcade machine that combined physical craftsmanship, electronics, and software development. The goal was to create a visually appealing, ergonomic, and interactive gaming experience that could engage users while demonstrating seamless integration of hardware and software. Key obstacles included coordinating the electronics with the game software, optimizing the control layout, and ensuring the cabinet was both durable and inviting.",
+    "description2": "To inform the design, I studied classic arcade machines to understand their proportions, button layouts, and aesthetic appeal. I evaluated various game engines and chose Godot for its flexibility and suitability for 2D game development. On the hardware side, I explored joystick and button configurations, testing wiring and input methods to ensure reliable communication between the controls and the game engine. This research guided both the physical construction and the software integration of the project.",
+    "description3": "The EHB Arcade was successfully built as a working arcade machine with a custom-designed game. The joystick and buttons responded accurately, providing an intuitive and engaging gameplay experience. While there were minor imperfections in the paint finish and the game mechanics could be further refined, the prototype met its primary objectives. This project demonstrates my ability to merge design, electronics, and software development into a cohesive interactive product, delivering both functionality and entertainment.",
+    "image1": "images/arcade7.jpeg",
+    "image2": "images/arcade1.jpeg",
+    "image3": "images/arcade3.jpeg",
+    "image4": "images/arcade2.jpg",
+    "image5": "images/arcade4.jpeg",
+    "image6": "images/arcade5.jpeg",
+    "image7": "images/arcade6.jpeg",
+    "area": "Prototyping"
+  },
+  {
+    "id": "2",
+    "name": "Eregum",
+    "description1": "For my design course, I was tasked with creating a unique chewing gum brand. The goal was to develop a compelling name, concept, logo, packaging, and promotional materials for this fictional product. I began by brainstorming potential names, concepts, and logo ideas. After evaluating several directions, I settled on the name EREGUM — a chewing gum designed to improve sexual performance, inspired by Viagra. This bold and edgy concept immediately captured attention and defined the creative direction for the project.",
+    "description2": "With the concept established, I designed a logo that was both eye-catching and aligned with the product's theme. Next, I created packaging inspired by condom boxes, with the gum placed in “condom-like” bags containing ten pieces each. This approach reinforced the theme while making the product feel fun and unique. Finally, I produced promotional materials, including posters and Instagram visuals. I focused on creating a cohesive brand identity, ensuring that the messaging and aesthetics were consistent across all platforms.",
+    "description3": "The project concluded successfully. The strong concept, creative packaging, and thoughtfully executed promotional materials impressed my professor and made EREGUM stand out — even as a fictional product, it effectively fulfilled the assignment's objectives.",
+    "image1": "images/eregum3.png",
+    "image2": "images/eregum2.jpg",
+    "image3": "images/eregum3.png",
+    "area": "Product D3esign"
+  },{
+    "id": "3",
+    "name": "Hiking Gileppe",
+    "description1": "Aire de Bivouac de la Gileppe. A lively group hike with friends through the lush forests near La Gileppe. Stunning landscapes, vibrant greenery, and plenty of laughs along the way — the perfect mix of adventure and good company.",
+    "image1": "images/hike1.jpeg",
+    "area": "Montage",
+    "video": "https://www.youtube.com/watch?v=Ox44dGRL6q8"
+  },{
+    "id": "4",
+    "name": "Hiking Hernoy",
+    "description1": "Bivouac du Bois d'Hernoy. A peaceful escape into the woods — I hiked with a friend to the Bivouac du Bois d'Hernoy and captured the calm, intimate vibe of the trail. A quiet adventure full of nature’s small details.",
+    "image1": "images/hike2.jpeg",
+    "area": "Montage",
+    "video": "https://www.youtube.com/watch?v=XeG0BbKQK2A"
+  },{
+    "id": "5",
+    "name": "World Without Bees",
+    "description1": "This project was created to make people aware of the crucial role bees play in our ecosystems and food systems. Bees are among the most important pollinators, responsible for pollinating around 70 of the 100 crop species that feed 90% of the world’s population. Without them, biodiversity, food availability, and entire ecosystems would collapse.",
+    "description2": "The goal of the installation is to give users an interactive experience of what could happen if bees disappeared. By removing bees from a cardboard beehive, the landscape shown on a screen slowly becomes more empty, grey, and lifeless. Placing the bees back restores the environment, making it greener and more lively again.",
+    "description3": "Although the interaction is simple, the project carries a deep message about environmental fragility and the importance of pollinators.",
+    "image1": "images/scene4.jpeg",
+    "image2": "images/scene0.jpeg",
+    "image3": "images/scene1.jpeg",
+    "image4": "images/scene2.jpeg",
+    "image5": "images/scene3.jpeg",
+    "area": "Interactive Motion",
+    "video": "https://www.youtube.com/shorts/DXmuA5xHnmI"
+  },{
+    "id": "6",
+    "name": "SPARX",
+    "description1": "Solo boxers often train without feedback, making it hard to improve accuracy, timing, and rhythm. Most smart punching bags depend on cloud services or subscriptions, which adds cost, latency, and friction.",
+    "description2": "SPARX was developed using Velostat pressure sensors, an ESP32 microcontroller, and a locally hosted Node.js + React interface. The system was iterated through sensor calibration, punch-detection tuning, and UI testing to ensure reliable, real-time feedback.",
+    "description3": "SPARX turns any punching bag into a coach-like training partner with live metrics, interactive drills, and mini-games. It works fully offline over local Wi-Fi, offering a fast, affordable, and plug-and-play solution for effective solo training.",
+    "image1": "images/sparx_cover.png",
+    "image2": "images/sparx_main.jpg",
+    "image3": "images/sparx_screen.png",
+    "image4": "images/sparx1.jpeg",
+    "area": "Prototyping",
+    "video": "https://www.youtube.com/watch?v=4uoWzG7pNQU"
+  },{
+    "id": "7",
+    "name": "STAR",
+    "description1": "An interactive arcade experience built with React and WebGL.",
+    "description2": "An interactive arcade experience built with React and WebGL.",
+    "description3": "An interactive arcade experience built with React and WebGL.",
+    "image1": "images/star_main.png",
+    "image2": "images/star_apparel1.png",
+    "image3": "images/star_apparel2.png",
+    "image4": "images/star_book1.png",
+    "image5": "images/star_book2.png",
+    "image6": "images/star_book3.png",
+    "image7": "images/star_m1.png",
+    "image8": "images/star_m2.png",
+    "image9": "images/star_m3.png",
+    "area": "Product Design",
+    "video": "https://www.youtube.com/shorts/uQ7R5y_6geQ"
+  }
+]
