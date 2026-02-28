@@ -82,8 +82,24 @@ const ProjectFull = () => {
 
         <h1 className="project-title">{project.name}</h1>
 
-        {project.area && <span className="project-area">{project.area}</span>}
+        <div className="project-meta">
+          {project.area && (
+            <span className="project-area">{project.area}</span>
+          )}
+
+          {project.link && (
+            <a
+              className="project-link"
+              href={project.link}
+              target="_blank"
+              rel="noreferrer"
+            >
+              Visit website ↗
+            </a>
+          )}
+        </div>
       </div>
+      
 
       {/* Content Section */}
       <div className="project-content">

@@ -66,9 +66,9 @@
   },{
     "id": "7",
     "name": "STAR",
-    "description1": "An interactive arcade experience built with React and WebGL.",
-    "description2": "An interactive arcade experience built with React and WebGL.",
-    "description3": "An interactive arcade experience built with React and WebGL.",
+    "description1": "STAR is a raw expression of ambition. Born from sketchbooks and late-night ideas, shaped by Tokyo energy. For those who move different.",
+    "description2": "STAR isn't just clothing — it's direction. A symbol for those building in silence and shining on purpose. From paper concepts to real-world presence.",
+    "description3": "Every STAR piece carries a mindset. Discipline. Growth. Individuality. Not made to fit in — made to stand out.",
     "image1": "images/star_main.png",
     "image2": "images/star_apparel1.png",
     "image3": "images/star_apparel2.png",
@@ -84,13 +84,24 @@
   {
     "id": "8",
     "name": "SOLDIAS",
-    "description1": "AN example website for a fictional company called SOLDIAS, which specializes in creating apparel. The website features a clean and modern design, showcasing the company's unique clothing designs. Users can explore the different models, view detailed images, and learn about the materials and craftsmanship that go into each pair. The website also includes an interactive customization tool that allows users to create their own personalized sneakers by selecting colors, patterns, and materials. Overall, the SOLDIAS website serves as a platform to highlight the brand's creativity and commitment to quality in the world of custom footwear.",
+    "description1": "SOLDIAS is not a brand. It's a code. Built on endurance, loyalty, and growth. For those who choose discipline over comfort.",
+    "description2": "SOLDIAS stands for the ones who keep going. Through pressure. Through doubt. Through silence. We don't follow trends. We build character.",
+    "description3": "SOLDIAS is for the disciplined dreamers. The quiet grinders. The ones who carry weight and never fold. Strength is earned. Loyalty is lived.",
     "image1": "images/soldias1.png",
     "image2": "images/soldias2.png",
     "image3": "images/soldias3.png",
     "image4": "images/soldias4.png",
     "image5": "images/soldias5.png",
     "image6": "images/soldias6.png",
+    "link": "https://lpsigorr.github.io/soldias/#/",
     "area": "Web Design"
+  },
+  {
+    "id": "9",
+    "name": "Be My Valentine",
+    "description1": "A playful interactive Valentine web app where the “No” button can't win — every time it's hovered or clicked, the “Yes” button grows bigger until she finally gives in, triggering a sweet animated surprise and a “Yay 💖” moment.",
+    "image1": "images/valentine1.png",
+    "video": "https://www.youtube.com/watch?v=20RsiwVfkWs",
+    "area": "Web App"
   }
 ]

@@ -354,6 +354,12 @@ html, body {
 }
 
 /* ---------- Projects ---------- */
+.project-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
 
 .project-full {
   max-width: auto;
@@ -395,6 +401,22 @@ html, body {
   font-weight: 700;
   margin-bottom: 1rem;
   line-height: 1.2;
+}
+
+.project-link {
+  padding: 8px 18px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 2px;
+  text-decoration: none;
+  font-size: 0.875rem;
+  font-family: 'Nata Sans', sans-serif;
+  color: #ffffff;
+  transition: all 0.3s ease;
+}
+
+.project-link:hover {
+  background-color: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.4);
 }
 
 .project-area {
