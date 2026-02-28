@@ -23,7 +23,7 @@
     "image1": "images/eregum3.png",
     "image2": "images/eregum2.jpg",
     "image3": "images/eregum3.png",
-    "area": "Product D3esign"
+    "area": "Product Design"
   },{
     "id": "3",
     "name": "Hiking Gileppe",
@@ -101,7 +101,20 @@
     "name": "Be My Valentine",
     "description1": "A playful interactive Valentine web app where the “No” button can't win — every time it's hovered or clicked, the “Yes” button grows bigger until she finally gives in, triggering a sweet animated surprise and a “Yay 💖” moment.",
     "image1": "images/valentine1.png",
+    "link": "https://lpsigorr.github.io/valentines-day/",
     "video": "https://www.youtube.com/watch?v=20RsiwVfkWs",
     "area": "Web App"
+  },
+  {
+    "id": "10",
+    "name": "Roast And Ritual",
+    "description1": "A modern website for a local coffee shop, designed to capture warmth, authenticity, and community. Showcasing the menu, story, location, and contact details in a clean, inviting layout that feels just like stepping into the café itself.",
+    "description2": "A sleek, responsive website crafted for an independent coffee brand. Built to highlight signature drinks, atmosphere, and identity — turning online visitors into loyal customers through strong visuals and clear storytelling.",
+    "image1": "images/coffee.png",
+    "image2": "images/coffee2.png",
+    "image3": "images/coffee3.png",
+    "image4": "images/coffee4.png",
+    "link": "https://lpsigorr.github.io/coffee/",
+    "area": "Web Design"
   }
 ]
