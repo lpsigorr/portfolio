@@ -116,5 +116,42 @@
     "image4": "images/coffee4.png",
     "link": "https://lpsigorr.github.io/coffee/",
     "area": "Web Design"
+  },
+  {
+    "id": "11",
+    "name": "The Accumulation Room",
+    "description1": "An experimental interactive art gallery where the screen gradually fills with artworks as the user scrolls. Hidden interactions and easter eggs invite exploration as the space becomes increasingly dense and visually chaotic.",
+    "description2": "At the end of the experience, the visitor is asked whether they want to clear the gallery. If they choose to do so, everything disappears, revealing the message: “Kill your darlings.” — a reflection on creativity and the importance of letting go of ideas to make space for better ones.",
+    "image1": "images/art1.png",
+    "image2": "images/art2.png",
+    "image3": "images/art3.png",
+    "link": "https://lpsigorr.github.io/artgallery/",
+    "area": "Web Design"
+  },
+  {
+    "id": "12",
+    "name": "The Internet Museum of Forgotten Ideas",
+    "description1": "An experimental interactive website designed as a fictional digital museum showcasing inventions that humanity almost built but ultimately abandoned. As visitors scroll through the gallery, they discover different exhibits—each presenting a forgotten idea with its own small interactive experiment.",
+    "description2": "Every artifact invites the user to explore and imagine what these inventions could have become, blending storytelling with playful interaction. The experience ends with an empty pedestal labeled “Your Idea,” reminding visitors that every forgotten innovation once began as a simple thought.",
+    "image1": "images/forg1.png",
+    "image2": "images/forg2.png",
+    "image3": "images/forg3.png",
+    "image4": "images/forg4.png",
+    "image5": "images/forg5.png",
+    "link": "https://lpsigorr.github.io/forgottenideas/",
+    "area": "Web Design"
+  },
+  {
+    "id": "13",
+    "name": "The Infinite Corridor",
+    "description1": "An experimental interactive experience where the user explores an endless corridor filled with mysterious doors. As visitors move forward, each door opens into a small surreal micro-world, creating a sense of curiosity and discovery.",
+    "description2": "Each room introduces a different interactive environment—distorting gravity, playing with light, or transforming the cursor—gradually turning the corridor into a dreamlike journey. At the end, the user discovers that the entire path forms a hidden labyrinth, revealing the message: “Curiosity builds the labyrinth.”",
+    "image1": "images/cor1.png",
+    "image2": "images/cor2.png",
+    "image3": "images/cor3.png",
+    "image4": "images/cor4.png",
+    "image5": "images/cor5.png",
+    "link": "https://lpsigorr.github.io/corridor/",
+    "area": "Web Design"
   }
 ]
