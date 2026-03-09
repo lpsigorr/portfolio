@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nata+Sans:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100..900&display=swap');
 
 /* ---------- Base / Global ---------- */
 *,
@@ -15,7 +15,7 @@ body {
   height: 100%;
   overflow-x: hidden;
   scrollbar-width: none;
-  font-family: 'Nata Sans', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
 }
 
 img,
@@ -28,7 +28,7 @@ video {
 .custom-cursor {
   width: 20px;
   height: 20px;
-  background-color: rgba(255, 255, 255, 0.5); /* same as glass box */
+  background-color: rgba(255, 255, 255, 0.5);
   border-radius: 50%;
   position: fixed;
   transform: translate(-50%, -50%);
@@ -49,7 +49,7 @@ video {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 120vw; /* extra size for parallax */
+  width: 120vw;
   height: 120vh;
   background-image: url('/images/bg1.jpg');
   background-size: cover;
@@ -82,18 +82,18 @@ video {
 
 /* Glassmorphism rectangle */
 .glass-box {
-  position: absolute; /* make it independent of flow */
-  bottom: 5%; /* push it near the bottom */
-  left: 4%; /* push it a bit from the left */
+  position: absolute;
+  bottom: 5%;
+  left: 4%;
 
   width: min(600px, 92vw);
   height: min(400px, 45vh);
 
-  background: rgba(17, 225, 124, 0.25); /* green tint */
+  background: rgba(17, 225, 124, 0.25);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
 
-  z-index: 2; /* on top of bg but below text */
+  z-index: 2;
 }
 
 /* ---------- Black Section ---------- */
@@ -179,9 +179,11 @@ video {
   transition: all 0.3s ease;
 }
 
-.nav-link:hover,
-.contact-btn:hover {
-  color: #9e9e9e;
+@media (hover: hover) {
+  .nav-link:hover,
+  .contact-btn:hover {
+    color: #9e9e9e;
+  }
 }
 
 /* Mobile Menu */
@@ -233,7 +235,7 @@ video {
   justify-content: space-between;
   align-items: center;
   color: rgb(255, 255, 255);
-  font-family: 'Nata Sans', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   flex-wrap: wrap;
   gap: 14px;
 }
@@ -259,8 +261,10 @@ video {
   transition: opacity 0.3s ease;
 }
 
-.footer-right a:hover {
-  opacity: 1;
+@media (hover: hover) {
+  .footer-right a:hover {
+    opacity: 1;
+  }
 }
 
 /* ---------- Work Grid ---------- */
@@ -297,8 +301,10 @@ video {
   -webkit-column-break-inside: avoid;
 }
 
-.works-card:hover {
-  transform: scale(1.05);
+@media (hover: hover) {
+  .works-card:hover {
+    transform: scale(1.05);
+  }
 }
 
 .works-title {
@@ -331,7 +337,6 @@ video {
 .works-video iframe {
   width: 100%;
   aspect-ratio: 16/9;
-  border-radius: 16px;
 }
 
 .works-area {
@@ -341,7 +346,6 @@ video {
   font-size: 0.875rem;
   background-color: #2b643e;
   color: white;
-  border-radius: 2px;
 }
 
 /* ---------- Projects ---------- */
@@ -359,7 +363,7 @@ video {
   min-height: 100vh;
   margin: 0 auto;
   padding: 100px clamp(20px, 6vw, 80px) 80px clamp(20px, 6vw, 80px);
-  font-family: 'Nata Sans', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   background-color: #0d0d0d;
   color: #ffffff;
 }
@@ -369,18 +373,19 @@ video {
   padding: 10px 20px;
   background-color: rgba(255, 255, 255, 0.1);
   border: none;
-  border-radius: 2px;
   cursor: pointer;
   font-size: 0.95rem;
   color: #ffffff;
   transition: all 0.3s ease;
-  font-family: 'Nata Sans', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   margin-bottom: 2rem;
 }
 
-.back-btn:hover {
-  background-color: rgba(255, 255, 255, 0.2);
-  transform: translateX(-5px);
+@media (hover: hover) {
+  .back-btn:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: translateX(-5px);
+  }
 }
 
 .project-header {
@@ -399,18 +404,19 @@ video {
 .project-link {
   padding: 8px 18px;
   border: 1px solid rgba(255, 255, 255, 0.2);
-  border-radius: 2px;
   text-decoration: none;
   font-size: 0.875rem;
-  font-family: 'Nata Sans', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   color: #ffffff;
   transition: all 0.3s ease;
   white-space: nowrap;
 }
 
-.project-link:hover {
-  background-color: rgba(255, 255, 255, 0.08);
-  border-color: rgba(255, 255, 255, 0.4);
+@media (hover: hover) {
+  .project-link:hover {
+    background-color: rgba(255, 255, 255, 0.08);
+    border-color: rgba(255, 255, 255, 0.4);
+  }
 }
 
 .project-area {
@@ -418,7 +424,6 @@ video {
   background-color: #2b643e;
   color: #ffffff;
   padding: 8px 16px;
-  border-radius: 2px;
   font-size: 0.875rem;
 }
 
@@ -433,7 +438,7 @@ video {
   line-height: 1.8;
   color: #d1d1d1;
   max-width: 800px;
-  align-self: center;
+  margin: 0 auto; /* fix: was align-self: center which has no effect here */
 }
 
 /* Images Grid */
@@ -443,12 +448,10 @@ video {
   margin-top: 1rem;
 }
 
-/* 2 columns if < 4 images */
 .project-images-few {
   grid-template-columns: repeat(2, 1fr);
 }
 
-/* 3 columns if >= 4 images */
 .project-images-many {
   grid-template-columns: repeat(3, 1fr);
 }
@@ -460,8 +463,10 @@ video {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
 }
 
-.project-images img:hover {
-  transform: scale(1.02);
+@media (hover: hover) {
+  .project-images img:hover {
+    transform: scale(1.02);
+  }
 }
 
 .project-video {
@@ -469,7 +474,6 @@ video {
   position: relative;
   padding-bottom: 56.25%;
   height: 0;
-  border-radius: 16px;
   overflow: hidden;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
 }
@@ -480,7 +484,6 @@ video {
   left: 0;
   width: 100%;
   height: 100%;
-  border-radius: 16px;
   border: none;
 }
 
@@ -555,16 +558,22 @@ video {
   background-image: url('https://images.unsplash.com/photo-1559056199-641a0ac8b55e?w=800');
 }
 
-.about-card:hover {
-  background-color: rgba(17, 225, 124, 0.25);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  transform: translateY(-5px);
-  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.4);
-}
+@media (hover: hover) {
+  .about-card:hover {
+    background-color: rgba(17, 225, 124, 0.25);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    transform: translateY(-5px);
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.4);
+  }
 
-.about-card:hover::before {
-  opacity: 0.15;
+  .about-card:hover::before {
+    opacity: 0.15;
+  }
+
+  .about-card:hover h2 {
+    transform: scale(1.05);
+  }
 }
 
 .about-card-content {
@@ -579,14 +588,11 @@ video {
   transition: all 0.3s ease;
 }
 
-.about-card:hover h2 {
-  transform: scale(1.05);
-}
-
 /* Expanded Section */
 .expanded-section {
   background-color: rgba(255, 255, 255, 0.05);
   padding: 60px;
+  max-width: 1200px; /* fix: was stretching full width on large screens */
   margin-bottom: 40px;
   animation: fadeIn 0.5s ease;
 }
@@ -607,18 +613,19 @@ video {
   padding: 10px 20px;
   background-color: rgba(255, 255, 255, 0.1);
   border: none;
-  border-radius: 2px;
   cursor: pointer;
   font-size: 0.95rem;
   color: #ffffff;
   transition: all 0.3s ease;
-  font-family: 'Nata Sans', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   margin-bottom: 2rem;
 }
 
-.close-btn:hover {
-  background-color: rgba(255, 255, 255, 0.2);
-  transform: translateX(-5px);
+@media (hover: hover) {
+  .close-btn:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: translateX(-5px);
+  }
 }
 
 .expanded-section h2 {
@@ -651,10 +658,12 @@ video {
   transition: transform 0.3s ease;
 }
 
-.skill-item:hover,
-.product-item:hover {
-  transform: translateY(-5px);
-  background-color: rgba(255, 255, 255, 0.08);
+@media (hover: hover) {
+  .skill-item:hover,
+  .product-item:hover {
+    transform: translateY(-5px);
+    background-color: rgba(255, 255, 255, 0.08);
+  }
 }
 
 .skill-item h3,
@@ -687,9 +696,11 @@ video {
   transition: transform 0.3s ease;
 }
 
-.education-item:hover {
-  transform: translateX(5px);
-  background-color: rgba(255, 255, 255, 0.08);
+@media (hover: hover) {
+  .education-item:hover {
+    transform: translateX(5px);
+    background-color: rgba(255, 255, 255, 0.08);
+  }
 }
 
 .education-item h3 {
@@ -709,7 +720,7 @@ video {
   color: #d1d1d1;
 }
 
-/*------ Contact Page ------*/
+/* ---------- Contact Page ---------- */
 .contact-container {
   width: 100%;
   margin: 0 auto;
@@ -717,7 +728,7 @@ video {
   padding: 100px clamp(20px, 6vw, 80px);
   background-color: #0d0d0d;
   color: #ffffff;
-  font-family: 'Nata Sans', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
 }
 
 .contact-header {
@@ -777,13 +788,12 @@ video {
 .contact-field textarea {
   background: rgba(255, 255, 255, 0.07);
   border: 1px solid rgba(255, 255, 255, 0.08);
-  border-radius: 2px;
   padding: 14px 16px;
   color: white;
   font-size: 1rem;
   outline: none;
   transition: all 0.25s ease;
-  font-family: 'Nata Sans', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
 }
 
 .contact-field textarea {
@@ -801,7 +811,6 @@ video {
   align-items: center;
   gap: 10px;
   padding: 12px 14px;
-  border-radius: 2px;
   background: rgba(255, 255, 255, 0.05);
   border: 1px solid rgba(255, 255, 255, 0.06);
   width: fit-content;
@@ -820,7 +829,6 @@ video {
 
 .contact-status {
   padding: 12px 14px;
-  border-radius: 16px;
   font-size: 0.95rem;
   line-height: 1.4;
   border: 1px solid rgba(255, 255, 255, 0.08);
@@ -841,20 +849,21 @@ video {
 .contact-btn-submit {
   margin-top: 10px;
   padding: 14px 18px;
-  border-radius: 2px;
   border: none;
   cursor: pointer;
   background: rgba(17, 225, 124, 0.25);
   color: white;
   font-size: 1rem;
   transition: all 0.25s ease;
-  font-family: 'Nata Sans', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   width: fit-content;
 }
 
-.contact-btn-submit:hover {
-  background: rgba(17, 225, 124, 0.35);
-  transform: translateY(-2px);
+@media (hover: hover) {
+  .contact-btn-submit:hover {
+    background: rgba(17, 225, 124, 0.35);
+    transform: translateY(-2px);
+  }
 }
 
 /* Links section under the form */
@@ -882,15 +891,16 @@ video {
   color: white;
   opacity: 0.85;
   padding: 10px 16px;
-  border-radius: 2px;
   background: rgba(255, 255, 255, 0.08);
   transition: all 0.25s ease;
 }
 
-.contact-links-row a:hover {
-  opacity: 1;
-  background: rgba(255, 255, 255, 0.12);
-  transform: translateY(-2px);
+@media (hover: hover) {
+  .contact-links-row a:hover {
+    opacity: 1;
+    background: rgba(255, 255, 255, 0.12);
+    transform: translateY(-2px);
+  }
 }
 
 /* ---------- Responsive Breakpoints ---------- */
