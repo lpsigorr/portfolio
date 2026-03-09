@@ -27,7 +27,7 @@ const Landing = () => {
         {/* Text content */}
         <div className="landing-content">
           <h1 style={{ fontFamily: "'Nata Sans', sans-serif" }}>
-            Welcome to My Portfolio
+            Igor Lopes Oliveira
           </h1>
           <p>Product designer</p>
         </div>
