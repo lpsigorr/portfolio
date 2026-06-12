@@ -22,7 +22,7 @@ const Header = () => {
 
   return (
     <header className={`header ${scrolled ? "scrolled" : ""}`}>
-      <nav className="nav-container" style={{ fontFamily: "'Nata Sans', sans-serif" }}>
+      <nav className="nav-container">
         {/* Logo goes back to home */}
         <Link to="/" className="logo" onClick={closeMenu}>
           Igor Lopes

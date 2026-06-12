@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Landing = () => {
   const [offset, setOffset] = useState({ x: 0, y: 0 });
@@ -26,10 +27,11 @@ const Landing = () => {
 
         {/* Text content */}
         <div className="landing-content">
-          <h1 style={{ fontFamily: "'Nata Sans', sans-serif" }}>
+          <h1>
             Igor Lopes Oliveira
           </h1>
-          <p>Product designer</p>
+          <p>Creative Technologist</p>
+          <Link to="/works" className="hero-cta">View Work →</Link>
         </div>
       </div>
 
@@ -40,12 +42,13 @@ const Landing = () => {
             <img
               src={`${import.meta.env.BASE_URL}images/main_igor.png`}
               alt="Portfolio showcase"
+              loading="lazy"
             />
 
           </div>
           <div className="right-text">
-            <h2 style={{ fontFamily: "'Nata Sans', sans-serif" }}>About Me</h2>
-            <p style={{ fontFamily: "'Nata Sans', sans-serif" }}>
+            <h2>About Me</h2>
+            <p>
               I'm a creative developer passionate about interactive experiences,
               design, and storytelling. This portfolio showcases my projects,
               ideas, and experiments.
