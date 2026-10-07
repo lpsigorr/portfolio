@@ -223,6 +223,8 @@ video {
   padding: 8px;
 }
 
+  background: none;
+  border: 0;
 .mobile-toggle span {
   width: 20px;
   height: 2px;

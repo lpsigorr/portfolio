@@ -8,8 +8,22 @@ const Works = ({ project }) => {
     navigate(`/work/${project.id}`);
   };
 
+  const handleKeyDown = (e) => {
+    if (e.key === "Enter" || e.key === " ") {
+      e.preventDefault();
+      handleClick();
+    }
+  };
+
   return (
-    <div className="works-card" onClick={handleClick} style={{ cursor: "pointer" }}>
+    <div
+      className="works-card"
+      role="link"
+      tabIndex={0}
+      onClick={handleClick}
+      onKeyDown={handleKeyDown}
+      style={{ cursor: "pointer" }}
+    >
       {project.image1 && (
         <div className="works-images">
           <img

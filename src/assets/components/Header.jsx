@@ -47,14 +47,17 @@ const Header = () => {
         </ul>
 
         {/* Mobile burger menu */}
-        <div
+        <button
+          type="button"
           className={`mobile-toggle ${menuActive ? "active" : ""}`}
           onClick={toggleMenu}
+          aria-label={menuActive ? "Close menu" : "Open menu"}
+          aria-expanded={menuActive}
         >
           <span></span>
           <span></span>
           <span></span>
-        </div>
+        </button>
       </nav>
     </header>
   );

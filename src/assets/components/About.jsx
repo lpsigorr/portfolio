@@ -14,6 +14,19 @@ const About = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
+  // Lets the cards be opened with the keyboard as well as the mouse
+  const cardProps = (section) => ({
+    role: "button",
+    tabIndex: 0,
+    onClick: () => openSection(section),
+    onKeyDown: (e) => {
+      if (e.key === "Enter" || e.key === " ") {
+        e.preventDefault();
+        openSection(section);
+      }
+    },
+  });
+
   return (
     <div className="about-container">
       <div className="about-header">
@@ -163,25 +176,25 @@ const About = () => {
       {/* Grid of Cards (only show when no section is active) */}
       {!activeSection && (
         <div className="about-grid">
-          <div className="about-card software" onClick={() => openSection("software")}>
+          <div className="about-card software" {...cardProps("software")}>
             <div className="about-card-content">
               <h2>Software</h2>
             </div>
           </div>
 
-          <div className="about-card hardware" onClick={() => openSection("hardware")}>
+          <div className="about-card hardware" {...cardProps("hardware")}>
             <div className="about-card-content">
               <h2>Hardware</h2>
             </div>
           </div>
 
-          <div className="about-card aboutme" onClick={() => openSection("aboutme")}>
+          <div className="about-card aboutme" {...cardProps("aboutme")}>
             <div className="about-card-content">
               <h2>About Me</h2>
             </div>
           </div>
 
-          <div className="about-card products" onClick={() => openSection("products")}>
+          <div className="about-card products" {...cardProps("products")}>
             <div className="about-card-content">
               <h2>Products</h2>
             </div>
