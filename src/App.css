@@ -223,10 +223,10 @@ video {
   cursor: pointer;
   gap: 4px;
   padding: 8px;
-}
-
   background: none;
   border: 0;
+}
+
 .mobile-toggle span {
   width: 20px;
   height: 2px;
@@ -887,25 +887,16 @@ video {
   box-shadow: 0 0 0 3px rgba(62, 207, 142, 0.15);
 }
 
-.contact-captcha {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  padding: 12px 14px;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.06);
-  width: fit-content;
+.contact-recaptcha {
+  min-height: 78px;
 }
 
-.contact-captcha input {
-  width: 18px;
-  height: 18px;
-  accent-color: #3ECF8E;
-}
-
-.contact-captcha label {
-  color: #d1d1d1;
-  font-size: 0.95rem;
+.contact-hp {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }
 
 .contact-status {
