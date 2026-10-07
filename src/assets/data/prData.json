@@ -17,12 +17,12 @@
   {
     "id": "2",
     "name": "Eregum",
-    "description1": "For my design course, I was tasked with creating a unique chewing gum brand. The goal was to develop a compelling name, concept, logo, packaging, and promotional materials for this fictional product. I began by brainstorming potential names, concepts, and logo ideas. After evaluating several directions, I settled on the name EREGUM — a chewing gum designed to improve sexual performance, inspired by Viagra. This bold and edgy concept immediately captured attention and defined the creative direction for the project.",
+    "description1": "A branding project from my design course: the assignment was to invent a fictional chewing gum brand from scratch — name, concept, logo, packaging, and promotional materials. After evaluating several directions, I committed to the most provocative one: EREGUM, a gum designed to improve sexual performance, directly inspired by Viagra. The bold concept cut through the noise and gave every design decision a clear, consistent direction.",
     "description2": "With the concept established, I designed a logo that was both eye-catching and aligned with the product's theme. Next, I created packaging inspired by condom boxes, with the gum placed in “condom-like” bags containing ten pieces each. This approach reinforced the theme while making the product feel fun and unique. Finally, I produced promotional materials, including posters and Instagram visuals. I focused on creating a cohesive brand identity, ensuring that the messaging and aesthetics were consistent across all platforms.",
     "description3": "The project concluded successfully. The strong concept, creative packaging, and thoughtfully executed promotional materials impressed my professor and made EREGUM stand out — even as a fictional product, it effectively fulfilled the assignment's objectives.",
     "image1": "images/eregum3.png",
     "image2": "images/eregum2.jpg",
-    "image3": "images/eregum3.png",
+    "image3": "images/eregum1.jpg",
     "area": "Product Design"
   },{
     "id": "3",
@@ -68,7 +68,7 @@
     "name": "STAR",
     "description1": "STAR is a raw expression of ambition. Born from sketchbooks and late-night ideas, shaped by Tokyo energy. For those who move different.",
     "description2": "STAR isn't just clothing — it's direction. A symbol for those building in silence and shining on purpose. From paper concepts to real-world presence.",
-    "description3": "Every STAR piece carries a mindset. Discipline. Growth. Individuality. Not made to fit in — made to stand out.",
+    "description3": "Every STAR piece carries a mindset. Discipline. Growth. Individuality. Not made to fit in — made to stand out. My role covered the full creative process: brand identity, logo design, apparel graphics, lookbook layout, and the motion content used across social.",
     "image1": "images/star_main.png",
     "image2": "images/star_apparel1.png",
     "image3": "images/star_apparel2.png",
@@ -86,7 +86,7 @@
     "name": "SOLDIAS",
     "description1": "SOLDIAS is not a brand. It's a code. Built on endurance, loyalty, and growth. For those who choose discipline over comfort.",
     "description2": "SOLDIAS stands for the ones who keep going. Through pressure. Through doubt. Through silence. We don't follow trends. We build character.",
-    "description3": "SOLDIAS is for the disciplined dreamers. The quiet grinders. The ones who carry weight and never fold. Strength is earned. Loyalty is lived.",
+    "description3": "SOLDIAS is for the disciplined dreamers. The quiet grinders. The ones who carry weight and never fold. Strength is earned. Loyalty is lived. I handled the complete brand build: visual identity, typography system, and the website — designed and deployed as a standalone React app.",
     "image1": "images/soldias1.png",
     "image2": "images/soldias2.png",
     "image3": "images/soldias3.png",

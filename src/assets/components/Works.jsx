@@ -5,27 +5,26 @@ const Works = ({ project }) => {
   const navigate = useNavigate();
 
   const handleClick = () => {
-    navigate(`/prData/${project.id}`);
+    navigate(`/work/${project.id}`);
   };
 
   return (
     <div className="works-card" onClick={handleClick} style={{ cursor: "pointer" }}>
-      {/* Project Title */}
-      <h2 className="works-title">{project.name}</h2>
-
-      {/* Only the first image */}
       {project.image1 && (
         <div className="works-images">
           <img
-            src={project.image1}
+            src={`${import.meta.env.BASE_URL}${project.image1}`}
             alt={`${project.name} screenshot`}
             className="works-img"
+            loading="lazy"
           />
         </div>
       )}
 
-      {/* Area Tag */}
-      {project.area && <span className="works-area">{project.area}</span>}
+      <div className="works-info">
+        <h2 className="works-title">{project.name}</h2>
+        {project.area && <span className="works-area">{project.area}</span>}
+      </div>
     </div>
   );
 };

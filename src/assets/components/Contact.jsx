@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import emailjs from "@emailjs/browser";
 
-const SERVICE_ID = "service_3nxfbd2";
-const TEMPLATE_ID = "template_mpnkkc5";
-const PUBLIC_KEY = "wNTiGkm3V26Uie-Lo";
+const SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+const TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+const PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
 
 const Contact = () => {
   const [form, setForm] = useState({
@@ -157,7 +157,7 @@ const Contact = () => {
       <div className="contact-links">
         <h2>Links</h2>
         <div className="contact-links-row">
-          <a href="https://www.linkedin.com/in/igor-lopes-oliveira-60169a212?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B5aOm1DC%2FTiaopcu8ZZseVw%3D%3D" target="_blank" rel="noreferrer">
+          <a href="https://www.linkedin.com/in/igor-lopes-oliveira-60169a212/" target="_blank" rel="noreferrer">
             LinkedIn
           </a>
           <a href="https://github.com/lpsigorr" target="_blank" rel="noreferrer">

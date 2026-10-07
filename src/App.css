@@ -16,6 +16,13 @@ body {
   overflow-x: hidden;
   scrollbar-width: none;
   font-family: 'Noto Sans', sans-serif;
+  cursor: none;
+}
+
+@media (pointer: coarse) {
+  body {
+    cursor: auto;
+  }
 }
 
 img,
@@ -77,7 +84,25 @@ video {
 
 .landing-content p {
   font-size: clamp(0.95rem, 1.4vw, 1rem);
-  margin-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.hero-cta {
+  display: inline-block;
+  padding: 12px 28px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-family: 'Noto Sans', sans-serif;
+  transition: all 0.3s ease;
+}
+
+@media (hover: hover) {
+  .hero-cta:hover {
+    background-color: rgba(255, 255, 255, 0.12);
+    border-color: rgba(255, 255, 255, 0.9);
+  }
 }
 
 /* Glassmorphism rectangle */
@@ -89,7 +114,7 @@ video {
   width: min(600px, 92vw);
   height: min(400px, 45vh);
 
-  background: rgba(17, 225, 124, 0.25);
+  background: rgba(62, 207, 142, 0.25);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
 
@@ -291,7 +316,7 @@ video {
 /* ---------- Work Cards ---------- */
 .works-card {
   background-color: rgba(255, 255, 255, 0.1);
-  padding: 20px;
+  padding: 0;
   transition: transform 0.3s ease;
   display: block;
   width: auto;
@@ -299,6 +324,11 @@ video {
   break-inside: avoid;
   page-break-inside: avoid;
   -webkit-column-break-inside: avoid;
+  overflow: hidden;
+}
+
+.works-info {
+  padding: 16px 20px 20px;
 }
 
 @media (hover: hover) {
@@ -310,7 +340,7 @@ video {
 .works-title {
   font-size: 1.5rem;
   font-weight: 600;
-  margin-bottom: 12px;
+  margin: 0 0 12px;
 }
 
 .works-description {
@@ -341,8 +371,8 @@ video {
 
 .works-area {
   display: inline-block;
-  margin-top: 16px;
-  padding: 8px 16px;
+  margin-top: 8px;
+  padding: 6px 14px;
   font-size: 0.875rem;
   background-color: #2b643e;
   color: white;
@@ -487,6 +517,50 @@ video {
   border: none;
 }
 
+.project-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.project-nav-link {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  text-decoration: none;
+  padding: 16px 20px;
+  background: rgba(255, 255, 255, 0.05);
+  transition: background 0.3s ease;
+  max-width: 45%;
+}
+
+.project-nav-next {
+  text-align: right;
+  margin-left: auto;
+}
+
+.project-nav-label {
+  font-size: 0.8rem;
+  color: #888;
+  display: block;
+}
+
+.project-nav-name {
+  font-size: 1rem;
+  color: #ffffff;
+  font-weight: 500;
+  display: block;
+}
+
+@media (hover: hover) {
+  .project-nav-link:hover {
+    background: rgba(255, 255, 255, 0.09);
+  }
+}
+
 /* ---------- About Page ---------- */
 .about-container {
   width: 100%;
@@ -560,7 +634,7 @@ video {
 
 @media (hover: hover) {
   .about-card:hover {
-    background-color: rgba(17, 225, 124, 0.25);
+    background-color: rgba(62, 207, 142, 0.25);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     transform: translateY(-5px);
@@ -632,7 +706,7 @@ video {
   font-size: clamp(1.6rem, 3.2vw, 2.5rem);
   font-weight: 700;
   margin-bottom: 2rem;
-  color: #11e17c;
+  color: #3ECF8E;
 }
 
 .expanded-section p {
@@ -670,7 +744,7 @@ video {
 .product-item h3 {
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
-  color: #11e17c;
+  color: #3ECF8E;
 }
 
 .skill-item p,
@@ -685,7 +759,7 @@ video {
 
 .education-title {
   font-size: 2rem;
-  color: #11e17c;
+  color: #3ECF8E;
   margin-bottom: 1.5rem;
 }
 
@@ -705,7 +779,7 @@ video {
 
 .education-item h3 {
   font-size: 1.5rem;
-  color: #11e17c;
+  color: #3ECF8E;
   margin-bottom: 0.5rem;
 }
 
@@ -802,8 +876,8 @@ video {
 
 .contact-field input:focus,
 .contact-field textarea:focus {
-  border-color: rgba(17, 225, 124, 0.5);
-  box-shadow: 0 0 0 3px rgba(17, 225, 124, 0.15);
+  border-color: rgba(62, 207, 142, 0.5);
+  box-shadow: 0 0 0 3px rgba(62, 207, 142, 0.15);
 }
 
 .contact-captcha {
@@ -819,7 +893,7 @@ video {
 .contact-captcha input {
   width: 18px;
   height: 18px;
-  accent-color: #11e17c;
+  accent-color: #3ECF8E;
 }
 
 .contact-captcha label {
@@ -841,8 +915,8 @@ video {
 }
 
 .contact-status.success {
-  background: rgba(17, 225, 124, 0.12);
-  border-color: rgba(17, 225, 124, 0.25);
+  background: rgba(62, 207, 142, 0.12);
+  border-color: rgba(62, 207, 142, 0.25);
   color: #bff6da;
 }
 
@@ -851,7 +925,7 @@ video {
   padding: 14px 18px;
   border: none;
   cursor: pointer;
-  background: rgba(17, 225, 124, 0.25);
+  background: rgba(62, 207, 142, 0.25);
   color: white;
   font-size: 1rem;
   transition: all 0.25s ease;
@@ -861,7 +935,7 @@ video {
 
 @media (hover: hover) {
   .contact-btn-submit:hover {
-    background: rgba(17, 225, 124, 0.35);
+    background: rgba(62, 207, 142, 0.35);
     transform: translateY(-2px);
   }
 }

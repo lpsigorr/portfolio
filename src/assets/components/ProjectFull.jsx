@@ -1,13 +1,15 @@
 import React from "react";
-import { useParams, useNavigate } from "react-router-dom";
+import { useParams, useNavigate, Link } from "react-router-dom";
 import data from "../data/prData.json";
 
 const ProjectFull = () => {
   const { id } = useParams();
   const navigate = useNavigate();
 
-  // Find the project by id
-  const project = data.find((p) => p.id.toString() === id);
+  const currentIndex = data.findIndex((p) => p.id.toString() === id);
+  const project = data[currentIndex];
+  const prevProject = currentIndex > 0 ? data[currentIndex - 1] : null;
+  const nextProject = currentIndex < data.length - 1 ? data[currentIndex + 1] : null;
 
   if (!project) {
     return (
@@ -76,7 +78,7 @@ const ProjectFull = () => {
     <div className="project-full">
       {/* Header Section */}
       <div className="project-header">
-        <button className="back-btn" onClick={() => navigate(-1)}>
+        <button className="back-btn" onClick={() => navigate('/works')}>
           ← Back
         </button>
 
@@ -122,6 +124,7 @@ const ProjectFull = () => {
                       key={imgIndex}
                       src={`${import.meta.env.BASE_URL}${img}`}
                       alt={`${project.name} screenshot ${startIdx + imgIndex + 1}`}
+                      loading="lazy"
                     />
                   ))}
                 </div>
@@ -142,6 +145,22 @@ const ProjectFull = () => {
             ></iframe>
           </div>
         )}
+      </div>
+
+      <div className="project-nav">
+        {prevProject ? (
+          <Link to={`/work/${prevProject.id}`} className="project-nav-link project-nav-prev">
+            <span className="project-nav-label">← Previous</span>
+            <span className="project-nav-name">{prevProject.name}</span>
+          </Link>
+        ) : <div />}
+
+        {nextProject ? (
+          <Link to={`/work/${nextProject.id}`} className="project-nav-link project-nav-next">
+            <span className="project-nav-label">Next →</span>
+            <span className="project-nav-name">{nextProject.name}</span>
+          </Link>
+        ) : <div />}
       </div>
     </div>
   );
