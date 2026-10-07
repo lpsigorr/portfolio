@@ -28,14 +28,14 @@
     "id": "3",
     "name": "Hiking Gileppe",
     "description1": "Aire de Bivouac de la Gileppe. A lively group hike with friends through the lush forests near La Gileppe. Stunning landscapes, vibrant greenery, and plenty of laughs along the way — the perfect mix of adventure and good company.",
-    "image1": "images/hike1.jpeg",
+    "image1": "images/hike1.webp",
     "area": "Montage",
     "video": "https://www.youtube.com/watch?v=Ox44dGRL6q8"
   },{
     "id": "4",
     "name": "Hiking Hernoy",
     "description1": "Bivouac du Bois d'Hernoy. A peaceful escape into the woods — I hiked with a friend to the Bivouac du Bois d'Hernoy and captured the calm, intimate vibe of the trail. A quiet adventure full of nature’s small details.",
-    "image1": "images/hike2.jpeg",
+    "image1": "images/hike2.webp",
     "area": "Montage",
     "video": "https://www.youtube.com/watch?v=XeG0BbKQK2A"
   },{
@@ -44,11 +44,11 @@
     "description1": "This project was created to make people aware of the crucial role bees play in our ecosystems and food systems. Bees are among the most important pollinators, responsible for pollinating around 70 of the 100 crop species that feed 90% of the world’s population. Without them, biodiversity, food availability, and entire ecosystems would collapse.",
     "description2": "The goal of the installation is to give users an interactive experience of what could happen if bees disappeared. By removing bees from a cardboard beehive, the landscape shown on a screen slowly becomes more empty, grey, and lifeless. Placing the bees back restores the environment, making it greener and more lively again.",
     "description3": "Although the interaction is simple, the project carries a deep message about environmental fragility and the importance of pollinators.",
-    "image1": "images/scene4.jpeg",
-    "image2": "images/scene0.jpeg",
-    "image3": "images/scene1.jpeg",
-    "image4": "images/scene2.jpeg",
-    "image5": "images/scene3.jpeg",
+    "image1": "images/scene4.webp",
+    "image2": "images/scene0.webp",
+    "image3": "images/scene1.webp",
+    "image4": "images/scene2.webp",
+    "image5": "images/scene3.webp",
     "area": "Interactive Motion",
     "video": "https://www.youtube.com/shorts/DXmuA5xHnmI"
   },{
@@ -100,7 +100,7 @@
     "id": "9",
     "name": "Be My Valentine",
     "description1": "A playful interactive Valentine web app where the “No” button can't win — every time it's hovered or clicked, the “Yes” button grows bigger until she finally gives in, triggering a sweet animated surprise and a “Yay 💖” moment.",
-    "image1": "images/valentine1.png",
+    "image1": "images/valentine1.webp",
     "link": "https://lpsigorr.github.io/valentines-day/",
     "video": "https://www.youtube.com/watch?v=20RsiwVfkWs",
     "area": "Web App"
