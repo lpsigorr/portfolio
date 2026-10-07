@@ -40,8 +40,8 @@ const Landing = () => {
         <div className="black-content">
           <div className="left-image">
             <img
-              src={`${import.meta.env.BASE_URL}images/main_igor.webp`}
-              alt="Portfolio showcase"
+              src={`${import.meta.env.BASE_URL}images/main_igor2.webp`}
+              alt="Portrait of Igor Lopes Oliveira"
               loading="lazy"
             />
 
