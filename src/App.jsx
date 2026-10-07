@@ -7,6 +7,7 @@ import Landing from "./assets/components/Landing.jsx";
 import WorkGrid from "./assets/components/WorkGrid.jsx";
 import ProjectFull from "./assets/components/ProjectFull.jsx";
 import CustomCursor from "./assets/components/CustomCursor.jsx";
+import ScrollToTop from "./assets/components/ScrollToTop.jsx";
 import About from "./assets/components/About.jsx";
 import Contact from "./assets/components/Contact.jsx";
 import "./App.css";
@@ -14,6 +15,7 @@ import "./App.css";
 function App() {
   return (
     <div className="App min-h-screen flex flex-col">
+      <ScrollToTop />
       <Header />
 
       <main className="flex-grow">
