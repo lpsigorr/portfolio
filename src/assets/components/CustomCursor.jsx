@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 const CustomCursor = () => {
-  const [position, setPosition] = useState({ x: 0, y: 0 });
+  const [position, setPosition] = useState(null);
 
   useEffect(() => {
     const moveCursor = (e) => {
@@ -11,6 +11,9 @@ const CustomCursor = () => {
     window.addEventListener("mousemove", moveCursor);
     return () => window.removeEventListener("mousemove", moveCursor);
   }, []);
+
+  // Nothing to show until the mouse has moved at least once
+  if (!position) return null;
 
   return (
     <div

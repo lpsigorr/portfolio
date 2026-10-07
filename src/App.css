@@ -22,6 +22,10 @@ body {
   body {
     cursor: auto;
   }
+
+  .custom-cursor {
+    display: none;
+  }
 }
 
 img,
