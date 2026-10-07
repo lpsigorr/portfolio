@@ -7,7 +7,7 @@ const Footer = () => {
         {/* Left side */}
         <div className="footer-left">
           <h2>My Portfolio</h2>
-          <p>© {new Date().getFullYear()} All Rights Reserved</p>
+          <p>© {new Date().getFullYear()} Igor Lopes Oliveira. All Rights Reserved</p>
         </div>
 
         {/* Right side */}

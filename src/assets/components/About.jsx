@@ -104,6 +104,9 @@ const About = () => {
           <p>
             My background combines design, technology, and storytelling, allowing me to move easily between concept, execution, and refinement. I'm curious by nature, adaptable, and motivated by projects that challenge me to learn new skills and push ideas further.
           </p>
+          <p>
+            I graduated from Erasmushogeschool Brussel in January 2026 and now work as a creative technologist and web developer, turning ideas into interactive, working products.
+          </p>
 
           <div className="education-section">
             <h3 className="education-title">Education</h3>
@@ -135,7 +138,7 @@ const About = () => {
           <div className="products-grid">
             <div className="product-item">
               <h3>EHB Arcade</h3>
-              <p>An interactive arcade installation developed as part of a collaborative school project. The focus was on playful interaction, physical input, and creating engaging experiences through hardware and software working together.</p>
+              <p>An interactive arcade installation developed as part of a collaborative project. The focus was on playful interaction, physical input, and creating engaging experiences through hardware and software working together.</p>
             </div>
             <div className="product-item">
               <h3>SPARX</h3>
