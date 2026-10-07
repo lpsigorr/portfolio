@@ -107,7 +107,7 @@ const Contact = () => {
     // honeypot: only bots fill the hidden field, so quietly pretend it worked
     if (form.hp_field) {
       setForm({ name: "", email: "", inquiry: "", hp_field: "" });
-      return setStatus({ type: "success", msg: "Message sent ✅" });
+      return setStatus({ type: "success", msg: "Message sent" });
     }
 
     // validation
@@ -151,7 +151,7 @@ const Contact = () => {
 
       await emailjs.send(SERVICE_ID, TEMPLATE_ID, templateParams);
 
-      setStatus({ type: "success", msg: "Message sent ✅" });
+      setStatus({ type: "success", msg: "Message sent" });
       setForm({ name: "", email: "", inquiry: "", hp_field: "" });
     } catch (err) {
       console.error("EmailJS error:", err);
