@@ -147,7 +147,7 @@ const About = () => {
             </div>
             <div className="product-item">
               <h3>STAR Collection</h3>
-              <p>A personal clothing brand and creative platform exploring identity, design, and storytelling through apparel. The project goes beyond clothing, treating each collection as a designed system with visual language, narrative, and physical products.</p>
+              <p>A personal clothing brand and creative platform made in collaboration with and for YF Agency, exploring identity, design, and storytelling through apparel. The project goes beyond clothing, treating each collection as a designed system with visual language, narrative, and physical products.</p>
             </div>
             <div className="product-item">
               <h3>Web Tools</h3>
