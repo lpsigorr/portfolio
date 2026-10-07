@@ -99,7 +99,7 @@ const About = () => {
           </button>
           <h2>About Me</h2>
           <p>
-            I'm a creative technologist and product designer with a strong interest in building experiences that connect the digital and physical world. I enjoy working hands-on, exploring ideas through making, testing, and iteration rather than staying purely theoretical.
+            I'm a creative technologist with a strong interest in building experiences that connect the digital and physical world. I enjoy working hands-on, exploring ideas through making, testing, and iteration rather than staying purely theoretical.
           </p>
           <p>
             My background combines design, technology, and storytelling, allowing me to move easily between concept, execution, and refinement. I'm curious by nature, adaptable, and motivated by projects that challenge me to learn new skills and push ideas further.

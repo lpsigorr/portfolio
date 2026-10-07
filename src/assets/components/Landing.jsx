@@ -49,7 +49,7 @@ const Landing = () => {
           <div className="right-text">
             <h2>About Me</h2>
             <p>
-              I'm a creative developer passionate about interactive experiences,
+              I'm a creative technologist passionate about interactive experiences,
               design, and storytelling. This portfolio showcases my projects,
               ideas, and experiments.
             </p>
