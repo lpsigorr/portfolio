@@ -1,5 +1,31 @@
 [
   {
+    "id": "14",
+    "name": "Number One & FB Logistics",
+    "description1": "Number One and FB Logistics are two brands of the same group. FB Logistics is the transport company, specialised in express and custom transport in Belgium and Europe, and Number One is the group’s express delivery brand, which is why its website says “From the FB Logistics Group” under the logo. I joined as the first member of the newly created IT and digitalization department, and my job was to give both brands a proper digital presence and practical tools for the team and for customers. I also took the photos of the fleet and the loading docks shown here.",
+    "description2": "The main deliverable was the Number One website, built for mobile and desktop with HTML, CSS and JavaScript. It is available in French, Dutch and English and presents the services, the process (reception, preparation, delivery), the fleet and the company, with a clear Get a Quote button. Next to it I built a single page that presents both companies together: FB Logistics and Number One in tabs, the full fleet with weight, volume and pallet capacity per vehicle, the type of cargo each one can carry (box, baché, frigo, pharma, general cargo, ADR), certifications and contact details, in three languages. I also built the quote calculator, a five-step flow that takes a customer from the shipment and cargo details to a price estimate.",
+    "description3": "The calculator recommends a vehicle for the cargo and lets the user change it, and each vehicle opens a detail view with its interior dimensions, useful volume and payload. Pricing works in several modes (shuttle, route and hourly), covers extras such as waiting time, extra stops and night surcharges, applies a fuel surcharge, and the quote can be printed or downloaded. Beyond the web, I tested two ideas for the daily work of the team: an email automation system built with Node.js, the Gmail API and the Claude API, with a validation layer that checks that the information is complete, and a prototype of a driver management app. Both were tests, and the next step was to take them from test to daily use. In the end the group had a new digital presence for both brands, photos of its real fleet, a quote calculator and two working prototypes to build on.",
+    "image1": "images/numberone1.webp",
+    "image2": "images/numberone2.webp",
+    "image3": "images/numberone3.webp",
+    "image4": "images/numberone4.webp",
+    "image5": "images/numberone5.webp",
+    "image6": "images/numberone6.webp",
+    "image7": "images/numberone7.webp",
+    "link": "https://lpsigorr.github.io/numberone_final/desktop.html",
+    "extraLinks": [
+      {
+        "label": "Fleet overview ↗",
+        "url": "https://lpsigorr.github.io/fb-nr1_01/"
+      },
+      {
+        "label": "Quote calculator ↗",
+        "url": "https://lpsigorr.github.io/numberone_final/calc.html"
+      }
+    ],
+    "area": "Web & Digitalization"
+  },
+  {
     "id": "1",
     "name": "EHB Arcade",
     "description1": "The challenge was to design and build a fully functional arcade machine that combined physical craftsmanship, electronics, and software development. The goal was to create a visually appealing, ergonomic, and interactive gaming experience that could engage users while demonstrating seamless integration of hardware and software. Key obstacles included coordinating the electronics with the game software, optimizing the control layout, and ensuring the cabinet was both durable and inviting.",
