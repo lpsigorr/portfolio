@@ -20,8 +20,8 @@
     "description1": "A branding project from my design course: the assignment was to invent a fictional chewing gum brand from scratch — name, concept, logo, packaging, and promotional materials. After evaluating several directions, I committed to the most provocative one: EREGUM, a gum designed to improve sexual performance, directly inspired by Viagra. The bold concept cut through the noise and gave every design decision a clear, consistent direction.",
     "description2": "With the concept established, I designed a logo that was both eye-catching and aligned with the product's theme. Next, I created packaging inspired by condom boxes, with the gum placed in “condom-like” bags containing ten pieces each. This approach reinforced the theme while making the product feel fun and unique. Finally, I produced promotional materials, including posters and Instagram visuals. I focused on creating a cohesive brand identity, ensuring that the messaging and aesthetics were consistent across all platforms.",
     "description3": "The project concluded successfully. The strong concept, creative packaging, and thoughtfully executed promotional materials impressed my professor and made EREGUM stand out — even as a fictional product, it effectively fulfilled the assignment's objectives.",
-    "image1": "images/eregum3.png",
-    "image2": "images/eregum2.jpg",
+    "image1": "images/eregum3.webp",
+    "image2": "images/eregum2.webp",
     "image3": "images/eregum1.jpg",
     "area": "Product Design"
   },{
@@ -57,10 +57,10 @@
     "description1": "Solo boxers often train without feedback, making it hard to improve accuracy, timing, and rhythm. Most smart punching bags depend on cloud services or subscriptions, which adds cost, latency, and friction.",
     "description2": "SPARX was developed using Velostat pressure sensors, an ESP32 microcontroller, and a locally hosted Node.js + React interface. The system was iterated through sensor calibration, punch-detection tuning, and UI testing to ensure reliable, real-time feedback.",
     "description3": "SPARX turns any punching bag into a coach-like training partner with live metrics, interactive drills, and mini-games. It works fully offline over local Wi-Fi, offering a fast, affordable, and plug-and-play solution for effective solo training.",
-    "image1": "images/sparx_cover.png",
-    "image2": "images/sparx_main.jpg",
-    "image3": "images/sparx_screen.png",
-    "image4": "images/sparx1.jpeg",
+    "image1": "images/sparx_cover.webp",
+    "image2": "images/sparx_main.webp",
+    "image3": "images/sparx_screen.webp",
+    "image4": "images/sparx1.webp",
     "area": "Prototyping",
     "video": "https://www.youtube.com/watch?v=4uoWzG7pNQU"
   },{
@@ -146,11 +146,11 @@
     "name": "The Infinite Corridor",
     "description1": "An experimental interactive experience where the user explores an endless corridor filled with mysterious doors. As visitors move forward, each door opens into a small surreal micro-world, creating a sense of curiosity and discovery.",
     "description2": "Each room introduces a different interactive environment—distorting gravity, playing with light, or transforming the cursor—gradually turning the corridor into a dreamlike journey. At the end, the user discovers that the entire path forms a hidden labyrinth, revealing the message: “Curiosity builds the labyrinth.”",
-    "image1": "images/cor1.png",
-    "image2": "images/cor2.png",
-    "image3": "images/cor3.png",
-    "image4": "images/cor4.png",
-    "image5": "images/cor5.png",
+    "image1": "images/cor1.webp",
+    "image2": "images/cor2.webp",
+    "image3": "images/cor3.webp",
+    "image4": "images/cor4.webp",
+    "image5": "images/cor5.webp",
     "link": "https://lpsigorr.github.io/corridor/",
     "area": "Web Design"
   }
