@@ -89,7 +89,7 @@ const ProjectFull = () => {
             <span className="project-area">{project.area}</span>
           )}
 
-          {project.link && (
+          {project.link && !project.extraLinks && (
             <a
               className="project-link"
               href={project.link}
@@ -98,6 +98,31 @@ const ProjectFull = () => {
             >
               Visit website ↗
             </a>
+          )}
+
+          {/* Projects with several links: main website plus extra buttons */}
+          {project.link && project.extraLinks && (
+            <div className="project-links">
+              <a
+                className="project-link"
+                href={project.link}
+                target="_blank"
+                rel="noreferrer"
+              >
+                Visit website ↗
+              </a>
+              {project.extraLinks.map((extra) => (
+                <a
+                  key={extra.url}
+                  className="project-link"
+                  href={extra.url}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {extra.label}
+                </a>
+              ))}
+            </div>
           )}
         </div>
       </div>

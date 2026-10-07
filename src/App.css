@@ -456,6 +456,12 @@ video {
   }
 }
 
+.project-links {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
 .project-area {
   display: inline-block;
   background-color: #2b643e;
@@ -1062,6 +1068,10 @@ video {
 @media (max-width: 420px) {
   .back-btn {
     padding: 10px 14px;
+  }
+
+  .project-links {
+    width: 100%;
   }
 
   .project-link,
